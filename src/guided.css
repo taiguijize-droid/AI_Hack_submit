@@ -1,0 +1,37 @@
+.guidedIntake {
+  border-color: #94c9c2;
+  background: linear-gradient(145deg, #ffffff 0%, #f2fbf9 100%);
+}
+
+.questionCard,
+.followUpReview {
+  margin-top: 18px;
+  border: 1px solid #cfe2df;
+  border-radius: 14px;
+  padding: 20px;
+  background: #fff;
+}
+
+.questionProgress {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 14px;
+  color: #18736e;
+  font-size: .82rem;
+  font-weight: 800;
+}
+
+.questionProgress progress { width: 100%; accent-color: #168b81; }
+.questionCard h3 { margin: 20px 0 8px; font-size: 1.15rem; }
+.questionCard > p { color: #5a727e; margin: 0 0 14px; }
+.questionCard textarea { width: 100%; min-height: 105px; resize: vertical; border: 1px solid #afc9cc; border-radius: 9px; padding: 12px; line-height: 1.6; }
+.questionActions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 9px; margin-top: 15px; }
+.followUpReview > div:not(.questionActions) { padding: 11px 0; border-top: 1px solid #e0ebec; }
+.followUpReview p { margin: 5px 0 0; color: #506b78; white-space: pre-wrap; }
+
+@media (max-width: 560px) {
+  .questionProgress { grid-template-columns: 1fr; }
+  .questionActions { justify-content: stretch; }
+  .questionActions button { flex: 1; }
+}

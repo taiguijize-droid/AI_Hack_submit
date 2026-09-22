@@ -1,0 +1,35 @@
+.draft label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 12px 0;
+  font-weight: 750;
+  color: #304e60;
+}
+
+.draft input,
+.draft textarea {
+  width: 100%;
+  border: 1px solid #c6d7db;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fafcfc;
+}
+
+.draft textarea {
+  min-height: 180px;
+  line-height: 1.65;
+  resize: vertical;
+}
+
+.fieldError {
+  display: block;
+  color: #a62e27;
+  margin-top: 6px;
+}
+
+.mailHelp {
+  font-size: .86rem;
+  line-height: 1.6;
+  margin: 10px 0 18px;
+}

@@ -1,0 +1,13 @@
+.traceList{display:flex;flex-direction:column;gap:9px}
+.traceList article{display:grid;grid-template-columns:72px 1fr;gap:12px;padding:13px;border:1px solid #dbe7e9;border-radius:10px}
+.traceList article>div{display:grid;grid-template-columns:150px 1fr;gap:3px 12px}
+.traceList strong{color:#284e5e}
+.traceList small,.traceList time{color:#687e89;font-size:.78rem}
+.traceList small,.traceList time{grid-column:1/-1}
+.traceStatus{height:max-content;text-align:center;padding:5px 7px;border-radius:99px;background:#edf2f3;color:#647984;font-size:.72rem;font-weight:850}
+.traceStatus.success{background:#dcf5ec;color:#087152}
+.traceStatus.error{background:#ffe5e2;color:#92251e}
+.traceStatus.skipped{background:#fff2d2;color:#765400}
+.evidence{display:inline-flex;flex-direction:column;margin-right:12px}
+.evidence small{color:#6c838e}
+@media(max-width:760px){.traceList article{grid-template-columns:1fr}.traceList article>div{grid-template-columns:1fr}.traceList small,.traceList time{grid-column:1}}
