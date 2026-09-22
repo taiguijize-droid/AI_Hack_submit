@@ -1,0 +1,9 @@
+MediaPipe Face Landmarker and Blendshape model
+Copyright 2023 The MediaPipe Authors
+Licensed under the Apache License, Version 2.0.
+
+Model source:
+https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task
+
+MediaPipe source:
+https://github.com/google-ai-edge/mediapipe
