@@ -1,0 +1,25 @@
+{
+  "name": "japan-mental-health-navigator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node dev-all.mjs",
+    "dev": "vite --configLoader native",
+    "server": "node server.mjs",
+    "build": "tsc -b && vite build --configLoader native",
+    "typecheck": "tsc -b --pretty false"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^1.0.1",
+    "@vitejs/plugin-react": "6.1.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "typescript": "5.7.3",
+    "vite": "8.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3"
+  }
+}

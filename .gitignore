@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.runtime/
+.env
+.npm-cache/
+__pycache__/
+*.pyc
+*.pyo
+*.tsbuildinfo
+*.log
